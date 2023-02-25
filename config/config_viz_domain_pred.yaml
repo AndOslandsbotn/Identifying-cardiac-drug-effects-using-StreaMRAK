@@ -1,0 +1,20 @@
+general:
+  indices_param: [1, 3]
+  model_names: ["streamrak", "falkon", 'euc-knn1', 'euc-knn10', 'apf-knn1', 'apf-knn10']
+  training_data_sizes: [100, 500, 1000, 2000, 3000, 4000, 5000, 6000]
+files:
+  pred_data_folder: 'Results/predictions'
+  pred_data_filenames: ["TsData_pred_N100", "TsData_pred_N500", "TsData_pred_N1000", "TsData_pred_N2000", "TsData_pred_N3000", "TsData_pred_N4000", "TsData_pred_N5000", "TsData_pred_N6000"] #, "TsData_pred_N10000", "TsData_pred_N20000", "TsData_pred_N40000", "TsData_pred_N60000"]
+  figures_folder: 'Figures/domain_pred'
+  model_folder: 'Results/trained_models'
+  data_folder: 'Data/BeelerReuter_idx'
+  trdata_filename: 'TrData_N'
+domain_error_experiment:
+  datasize: 6000
+  pred_data_filename: "TsData_pred_N6000"
+  cutoff: 1.1e-1
+  is_logscale: False
+training_time_experiment:
+  avg_apf_construct_time: 0.00127  # Solved for separately
+  avg_ode_solver_time: 5.47  # Solved for separately
+
