@@ -16,4 +16,4 @@
 
 ### Note
  - It might be necessary to comment-out matplotlib.use('TkAgg')
- - install packages using requirements.txt
+ - Install packages using requirements.txt
