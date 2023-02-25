@@ -4,7 +4,7 @@ general:
   training_data_sizes: [100, 500, 1000, 2000, 3000, 4000, 5000, 6000]
 files:
   pred_data_folder: 'Results/predictions'
-  pred_data_filenames: ["TsData_pred_N100", "TsData_pred_N500", "TsData_pred_N1000", "TsData_pred_N2000", "TsData_pred_N3000", "TsData_pred_N4000", "TsData_pred_N5000", "TsData_pred_N6000"] #, "TsData_pred_N10000", "TsData_pred_N20000", "TsData_pred_N40000", "TsData_pred_N60000"]
+  pred_data_filenames: ["TsData_pred_N100", "TsData_pred_N500"] #, "TsData_pred_N1000", "TsData_pred_N2000", "TsData_pred_N3000", "TsData_pred_N4000", "TsData_pred_N5000", "TsData_pred_N6000"] #, "TsData_pred_N10000", "TsData_pred_N20000", "TsData_pred_N40000", "TsData_pred_N60000"]
   figures_folder: 'Figures/domain_pred'
   model_folder: 'Results/trained_models'
   data_folder: 'Data/BeelerReuter_idx'

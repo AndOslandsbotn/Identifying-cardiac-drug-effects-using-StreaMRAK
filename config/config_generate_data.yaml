@@ -4,7 +4,7 @@ general:
   init_param: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
   param_range: [0.2, 2]
 domain_experiment:
-  num_train_samples: [100, 500] #, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000]
+  num_train_samples: [100, 500, 1000, 1500, 2000, 2500, 3000, 4000, 5000, 6000]
 files:
   data_folder: 'Data/BeelerReuter'
   data_filename: 'DomainData'

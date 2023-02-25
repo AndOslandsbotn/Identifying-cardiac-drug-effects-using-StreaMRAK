@@ -9,8 +9,6 @@ if __name__ == '__main__':
     model_names = ["streamrak", "falkon", "euc-knn", "apf-knn"]
     for model_name in model_names:
         print(model_name)
-        if model_name == "euc-knn1":
-            d = 3
         domainExperiment = DomainExperiment(model_name, config_solver, config_domain_pred)
         test_data_filename = f"{config_domain_pred['files']['test_data_filenames']}"
         domainExperiment.load_test_data(test_data_filename)
