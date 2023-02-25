@@ -12,7 +12,7 @@
   loss function minimization schemes.
 
 ### Visualization
-Run main_visualize_domainpred.py
+ - Run main_visualize_domainpred.py
 
 ### Note
  - It might be necessary to comment-out matplotlib.use('TkAgg')
