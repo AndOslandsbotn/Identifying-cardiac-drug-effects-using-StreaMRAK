@@ -15,5 +15,5 @@
 Run main_visualize_domainpred.py
 
 ### Note
- - It might be necessary to uncomment matplotlib.use('TkAgg')
+ - It might be necessary to comment-out matplotlib.use('TkAgg')
  - install packages using requirements.txt
