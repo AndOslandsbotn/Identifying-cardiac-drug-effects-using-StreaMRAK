@@ -3,7 +3,7 @@
 ## Data
 Data can be accessed in two ways.
 #### From data file stored in git LFS
-  - Download the git large file system (git LFS), then pull this gitrepository and unzip the file BeelerReuter_idx[1, 3].zip.
+  - Download the git large file system (git LFS), then pull this repository and unzip the file BeelerReuter_idx[1, 3].zip.
 #### Generate data
  - Run main_generate_data.py to generate the beeler-reuter AP traces over a domain. 
  - The generated data will be stored in the folder Data/BeelerReuter_idx[1, 3]
