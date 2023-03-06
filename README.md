@@ -1,8 +1,12 @@
 # Identifying-cardiac-drug-effects-using-StreaMRAK
 
+## Data
+- Data can be accessed in two ways. Either generated using the main_generate_data.py 
+  or by downloading the git large file system (git LFS) and unzipping the file BeelerReuter_idx[1, 3].zip.
 ### Generate data
  - Run main_generate_data.py to generate the beeler-reuter AP traces over a domain
 
+## Using StreaMRAK and FALKON
 ### Train models
  - Run main_train_models.py to the train StreaMRAK and FALKON models
 
