@@ -2,16 +2,16 @@
 
 ## Data
 Data can be accessed in three ways.
-#### From data file stored in git LFS
-  - Download the git large file system (git LFS), then pull this repository and unzip the file BeelerReuterData.zip. This will give a files BeelerReuter_idx[1, 3] which should be placed in the folder Data. This folder will contain:
+#### Alternative 1: From data file stored in git LFS
+  - Alternative 1a: Download the git large file system (git LFS), then pull this repository and unzip the file BeelerReuterData.zip. This will give a files BeelerReuter_idx[1, 3] which should be placed in the folder Data. This folder will contain:
     - DomainData_N10000.npz,
     - Training data TrData_NX.npz for X=[100, ..., 6000] 
     - Test data TsData.npz
-  - Pull the data in Data/DomainData_N10000.7z. Unzip the data to get DomainData_N10000.npz. This data should be placed in a folder Data/BeelerReuter_idx[1, 3]. 
+  - Alternative 1b: Pull the data in Data/DomainData_N10000.7z. Unzip the data to get DomainData_N10000.npz. This data should be placed in a folder Data/BeelerReuter_idx[1, 3]. 
     Then run the main_generate_data.py only with TestTrainDataGenerator (with DataGenerator commented out). This generates the test and training data
     - Training data TrData_NX.npz for X=[100, ..., 6000] 
     - Test data TsData.npz
-#### Generate data
+#### Alternative 2: Generate data
  - Run main_generate_data.py to generate the beeler-reuter AP traces over a domain. 
  - The generated data will be stored in the folder Data/BeelerReuter_idx[1, 3]
 
