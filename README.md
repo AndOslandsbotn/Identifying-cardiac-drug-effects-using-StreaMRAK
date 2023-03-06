@@ -1,7 +1,7 @@
 # Identifying-cardiac-drug-effects-using-StreaMRAK
 
 ## Data
-Data can be accessed in three ways.
+The synthetic data can be accessed in three ways.
 #### Alternative 1: From data file stored in git LFS
   - Alternative 1a: Download the git large file system (git LFS), then pull this repository and unzip the file BeelerReuterData.zip. This will give a files BeelerReuter_idx[1, 3] which should be placed in the folder Data. This folder will contain:
     - DomainData_N10000.npz,
@@ -12,7 +12,7 @@ Data can be accessed in three ways.
     - Training data TrData_NX.npz for X=[100, ..., 6000] 
     - Test data TsData.npz
 #### Alternative 2: Generate data
- - Run main_generate_data.py to generate the beeler-reuter AP traces over a domain. 
+ - Run main_generate_data.py with both DataGenerator TestTrainDataGenerator, to generate the beeler-reuter AP traces over a domain. 
  - The generated data will be stored in the folder Data/BeelerReuter_idx[1, 3]
 
 ## Using StreaMRAK and FALKON
